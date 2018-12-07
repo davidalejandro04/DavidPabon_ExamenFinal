@@ -1,6 +1,12 @@
+
+import matplotlib
+matplotlib.use('Agg')
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm
+
 
 x=np.linspace(-4,4,100)
 lista=[]
